@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Learning Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(to right, #f0f7ff, #b2c5ff);
+      color: #333;
+    }
+    header {
+      background: #ff6f61;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      color: #ff6f61;
+      margin-top: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: left;
+    }
+    ul li {
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+    }
+    .start-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #ff6f61;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .start-button:hover {
+      background-color: #d75947;
+    }
+  </style>
+</head>
+<body>
+  <header>Student Learning Hub</header>
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/500x200?text=ELA+Image" alt="ELA Image">
+      <h2>ELA</h2>
+      <ul>
+        <li>Song Lyrics as Poetry</li>
+        <li>Write a Graphic Novel Panel</li>
+        <li>What Makes a Good Story?</li>
+        <li>Journal Prompt: My Superpower</li>
+        <li>Analyze a TikTok Story Arc</li>
+      </ul>
+      <a href="#" class="start-button">Start Lesson</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/500x200?text=Social+Studies+Image" alt="Social Studies Image">
+      <h2>Social Studies</h2>
+      <ul>
+        <li>History of Hip Hop</li>
+        <li>What Is a Protest?</li>
+        <li>Ancient Tattoos</li>
+        <li>Time Zones & Global Travel</li>
+        <li>Intro to Government</li>
+      </ul>
+      <a href="#" class="start-button">Start Lesson</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/500x200?text=Science+Image" alt="Science Image">
+      <h2>Science</h2>
+      <ul>
+        <li>What’s in Fast Food?</li>
+        <li>Why Do We Dream?</li>
+        <li>Intro to DNA</li>
+        <li>Weird Animal Adaptations</li>
+        <li>Science of Ice Cream</li>
+      </ul>
+      <a href="#" class="start-button">Start Lesson</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/500x200?text=Current+Events+Image" alt="Current Events Image">
+      <h2>Current Events</h2>
+      <ul>
+        <li>What Is Misinformation?</li>
+        <li>Social Media & Anxiety</li>
+        <li>Global Teen Life</li>
+        <li>Natural Disasters in the News</li>
+        <li>Local Issues You Care About</li>
+      </ul>
+      <a href="#" class="start-button">Start Lesson</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/500x200?text=Art+Image" alt="Art Image">
+      <h2>Art</h2>
+      <ul>
+        <li>Street Art & Graffiti</li>
+        <li>Color Your Mood</li>
+        <li>Make Your Own Meme</li>
+        <li>Cartoon Yourself</li>
+        <li>Album Cover Redesign</li>
+      </ul>
+      <a href="#" class="start-button">Start Lesson</a>
+    </div>
+  </div>
+</body>
+</html>
